@@ -1,6 +1,7 @@
 
 <div align="center">
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alibigham57/Project-SIMA/blob/main/Applio_Master_2026_v2_14050514.ipynb) 
 # 🎤 Project SIMA
 
 ### Professional RVC Voice Training Notebook (2026)
