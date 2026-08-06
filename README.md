@@ -1,92 +1,100 @@
-
 <div align="center">
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alibigham57/Project-SIMA/blob/main/Applio_Master_2026_v2_14050514.ipynb)
-  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alibigham57/Project-SIMA/blob/main/Applio_Master_2026_v2_14050514.ipynb)
+
 # 🎤 Project SIMA
 
 ### Professional RVC Voice Training Notebook (2026)
 
 ### نوت‌بوک حرفه‌ای آموزش مدل‌های RVC
 
----
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alibigham57/Project-SIMA/blob/main/Applio_Master_2026_v2_14050514.ipynb)
 
-![Workflow](assets/workflow_page1.png)
+<img src="assets/banner.png" width="100%">
 
 </div>
 
 ---
-<p align="center">
-<img src="assets/banner.png" width="100%">
-</p>
 
 # 🇺🇸 English
 
-Project SIMA is a professional Google Colab notebook for training high-quality RVC voice cloning models.
+Project SIMA is a professional Google Colab notebook for training high-quality RVC Voice Cloning models using Applio.
 
-Designed for beginners and advanced users.
+Designed for beginners and advanced users with a fully automated workflow.
 
-### Features
+## Features
 
 - ✅ One-click setup
+- ✅ Google Drive Integration
 - ✅ Automatic Dataset Processing
 - ✅ Feature Extraction
 - ✅ Resume Training
 - ✅ Automatic Backup
 - ✅ Automatic Restore
-- ✅ Automatic Model Export
-- ✅ Automatic Index Generation
-- ✅ Google Drive Synchronization
+- ✅ Automatic Model Export (.pth)
+- ✅ Automatic Index Generation (.index)
 - ✅ Tesla T4 Optimized
 
 ---
 
 # 🇮🇷 فارسی
 
-پروژه **سیما** یک نوت‌بوک حرفه‌ای Google Colab برای آموزش مدل‌های Voice Cloning مبتنی بر RVC است.
+پروژه **SIMA** یک نوت‌بوک حرفه‌ای Google Colab برای آموزش مدل‌های Voice Cloning مبتنی بر RVC و Applio است.
 
-این پروژه برای کاربران مبتدی و حرفه‌ای طراحی شده و کل فرایند آموزش را به‌صورت استاندارد و خودکار انجام می‌دهد.
+تمام مراحل آموزش از آماده‌سازی دیتاست تا استخراج مدل نهایی به‌صورت خودکار انجام می‌شود.
 
 ### امکانات
 
-- ✅ راه‌اندازی خودکار محیط
-- ✅ اتصال خودکار به Google Drive
+- ✅ نصب و راه‌اندازی خودکار
+- ✅ اتصال به Google Drive
 - ✅ پردازش خودکار دیتاست
 - ✅ استخراج ویژگی‌ها
 - ✅ ادامه آموزش (Resume)
 - ✅ پشتیبان‌گیری خودکار
-- ✅ بازیابی خودکار پروژه
-- ✅ استخراج خودکار مدل نهایی
+- ✅ استخراج خودکار مدل
 - ✅ ساخت خودکار فایل Index
 - ✅ بهینه‌شده برای Tesla T4
 
 ---
 
-# 🚀 Quick Start | شروع سریع
+# 📖 Workflow Guide | راهنمای اجرا
 
-## اگر برای اولین بار از پروژه استفاده می‌کنید
+قبل از اجرای نوت‌بوک ابتدا تصاویر زیر را مشاهده کنید.
 
-مشاهده صفحه اول راهنما
+## Step 1
 
-![](assets/workflow_page1.png)
-
----
-
-## اگر می‌خواهید آموزش را ادامه دهید (Resume)
-
-مشاهده صفحه دوم راهنما
-
-![](assets/workflow_page2.png)
+<img src="assets/1.png" width="100%">
 
 ---
 
-## اگر فقط خروجی نهایی یا رفع اشکال را نیاز دارید
+## Step 2
 
-مشاهده صفحه سوم راهنما
+<img src="assets/2.png" width="100%">
 
-![](assets/workflow_page3.png)
+---
+
+# 🚀 Quick Start
+
+1. Open Notebook in Google Colab.
+2. Mount Google Drive.
+3. Configure your dataset.
+4. Run the notebook from **Cell 1**.
+5. Train or Resume Training.
+6. Export your model.
+
+---
+
+# 🚀 شروع سریع
+
+۱- نوت‌بوک را در Google Colab باز کنید.
+
+۲- Google Drive را Mount کنید.
+
+۳- دیتاست را معرفی کنید.
+
+۴- اجرای نوت‌بوک را از **Cell 1** آغاز کنید.
+
+۵- آموزش جدید یا Resume را اجرا کنید.
+
+۶- مدل نهایی را استخراج کنید.
 
 ---
 
@@ -100,235 +108,39 @@ Project-SIMA
 ├── LICENSE
 │
 ├── assets
-│   ├── workflow_page1.png
-│   ├── workflow_page2.png
-│   ├── workflow_page3.png
-│
-└── docs
-```
-
----
-
-# 📄 Final Output | خروجی نهایی
-
-✔ Voice Model (.pth)
-
-✔ Feature Index (.index)
-
-Only these two files are required for Voice Conversion.
-
-برای استفاده در نوت‌بوک دوم فقط همین دو فایل لازم است.
-
----
-
-<div align="center">
-
-## ⭐ Project SIMA
-
-Made with ❤️ using Google Colab + Applio
-
-ساخته شده برای جامعه متن‌باز
-
-2026
-
-</div>
-# 🎤 Project SIMA
-## Professional RVC Voice Training Notebook (2026 Edition)
-
-### پروژه سیما
-### نوت‌بوک حرفه‌ای آموزش مدل‌های RVC (نسخه ۲۰۲۶)
-
----
-
-<div align="center">
-
-Professional Google Colab Notebook for Training High-Quality RVC Voice Models
-
-نوت‌بوک حرفه‌ای گوگل کولب برای آموزش مدل‌های باکیفیت RVC
-
-</div>
-
----
-
-# 📖 Workflow Guide
-# راهنمای مسیر اجرای پروژه
-
-Before running any notebook cell, please review the workflow below.
-
-قبل از اجرای هر سلول، لطفاً یک‌بار مسیر اجرای پروژه را مشاهده کنید.
-
-![](assets/workflow_page1.png)
-
----
-
-![](assets/workflow_page2.png)
-
----
-
-![](assets/workflow_page3.png)
-
----
-
-# 🚀 About Project SIMA
-# معرفی پروژه سیما
-
-Project SIMA is a complete Google Colab workflow for training high-quality RVC voice cloning models.
-
-The notebook has been redesigned to provide a clean, reliable and reproducible training pipeline.
-
-پروژه سیما یک محیط کامل برای آموزش مدل‌های RVC در Google Colab است.
-
-این نوت‌بوک با هدف ایجاد یک فرایند استاندارد، پایدار و قابل تکرار برای آموزش مدل‌های Voice Cloning طراحی شده است.
-
----
-
-# ✨ Features
-# امکانات
-
-✅ Automatic Environment Setup
-
-راه‌اندازی خودکار محیط
-
-✅ Google Drive Integration
-
-اتصال کامل به Google Drive
-
-✅ Automatic Dataset Processing
-
-پردازش خودکار دیتاست
-
-✅ Feature Extraction
-
-استخراج ویژگی‌ها
-
-✅ Resume Training
-
-ادامه آموزش از آخرین Checkpoint
-
-✅ Automatic Backup
-
-پشتیبان‌گیری خودکار
-
-✅ Automatic Model Export
-
-استخراج خودکار مدل نهایی
-
-✅ Automatic Index Generation
-
-ساخت خودکار فایل Index
-
-✅ Professional Workflow
-
-ساختار حرفه‌ای و استاندارد
-
----
-
-# 📂 Repository Structure
-# ساختار پروژه
-
-```
-Project-SIMA
-│
-├── Applio_Master_2026_v2_14050514.ipynb
-│
-├── README.md
-│
-├── LICENSE
-│
-├── assets
-│   ├── workflow_page1.png
-│   ├── workflow_page2.png
-│   ├── workflow_page3.png
+│   ├── banner.png
 │   ├── logo.png
-│   └── banner.png
+│   ├── 1.png
+│   └── 2.png
 │
 └── docs
 ```
 
 ---
 
-# 💻 Requirements
-# پیش‌نیازها
-
-• Google Account
-
-حساب Google
-
-• Google Drive
-
-گوگل درایو
-
-• Google Colab
-
-گوگل کولب
-
-• NVIDIA GPU (Tesla T4 or Better Recommended)
-
-کارت گرافیک NVIDIA (ترجیحاً Tesla T4 یا بهتر)
-
----
-
-# 📋 Main Workflow
-# مسیر کلی اجرا
-
-Dataset
-
-↓
-
-Preprocess
-
-↓
-
-Feature Extraction
-
-↓
-
-Training
-
-↓
-
-Export Model
-
-↓
-
-Backup
-
-↓
-
-Voice Conversion (Notebook 2)
-
----
-
-# 🎯 Final Output
-# خروجی نهایی
+# 📄 Final Output
 
 ✔ Voice Model (.pth)
 
-مدل نهایی
-
 ✔ Feature Index (.index)
-
-فایل ایندکس
 
 These two files are all you need for Voice Conversion.
 
-برای تغییر صدا تنها همین دو فایل کافی هستند.
-
 ---
 
-# 📚 Documentation
-# مستندات
+# 📄 خروجی نهایی
 
-The workflow diagrams at the beginning of this page explain every stage of the project.
+✔ فایل مدل (.pth)
 
-تصاویر ابتدای این صفحه تمام مراحل پروژه را به‌صورت تصویری نمایش می‌دهند.
+✔ فایل Index (.index)
+
+برای استفاده در نوت‌بوک تغییر صدا فقط همین دو فایل کافی هستند.
 
 ---
 
 # 📜 License
-# مجوز
 
-This project is published for educational and research purposes.
+This project is released for educational and research purposes.
 
 این پروژه برای اهداف آموزشی و پژوهشی منتشر شده است.
 
@@ -338,12 +150,8 @@ This project is published for educational and research purposes.
 
 ## ⭐ Project SIMA
 
-Professional RVC Training Workflow
-
-ساخته شده برای جامعه متن‌باز
-
-Made with ❤️ using Google Colab & Applio
+Made with ❤️ using Google Colab + Applio
 
 2026
 
-</div># Project-SIMA
+</div>
